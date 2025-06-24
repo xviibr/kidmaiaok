@@ -14,7 +14,7 @@ class MyClient(commands.Cog):
         self.bot = bot
 
   
-    @app_commands.command(name="payment", description="แสดงข้อมูลช่องทางการชำระเงิน")
+    @app_commands.command(name="payment", description="ส่งช่องทางชำระเงิน")
     async def payment(self, interaction: discord.Interaction):
         embed = discord.Embed(
             title="ช่องทางชำระ",
