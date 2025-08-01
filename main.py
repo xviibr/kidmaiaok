@@ -34,7 +34,7 @@ async def on_ready():
         print(f"❌ Sync ไม่สำเร็จ: {e}")
     print(f'🟢 เข้าสู่ระบบแล้ว: {bot.user.name}')
 
-    # 👉 เพิ่มสถานะที่นี่
+  
     activity = discord.Game(name="BOT v.2.1")
     await bot.change_presence(status=discord.Status.online, activity=activity)
 
